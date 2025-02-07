@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: #f4ea4a;
+    background-image: url('https://t4.ftcdn.net/jpg/05/62/02/41/240_F_562024161_tGM4lFlnO0OczLYHFFuNNdMUTG9ekHxb.jpg'); /* Замените на свой URL для фона */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #a5edea ; /* Полупрозрачный белый фон */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 3px solid #d9534f;
+    position: absolute;
+    top: -55px; 
+    left: calc(50% - 50px); 
+}
+
+.profile-photo img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 60px; /* Увеличиваем пространство для имени */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+p {
+    line-height: 1.6;
+    color: #666;
+}
+
+.Kontakti {
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #a5edea;
+    border-left: 6px solid #2196F3;
+    
+}
+
+.Obrazovanie,
+.experience {
+    margin: 20px 0;
+    padding: 10px;
+    border-left: 6px solid #2196F3;
+    color: #0c2106;
+}
+
+.footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #aaa;
+    margin-top: 20px;
+}
